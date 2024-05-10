@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(87, 85, 85);
+    /* width: 20vw; */
+    /* width: 434px; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar {
+    padding: 25px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 30px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+    padding-left:100px;
+}
+
+.main {
+    /* background-color: rgba(236, 206, 37, 0.884); */
+    width: 40vw;
+    margin-left: 8vw;
+
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: rgb(153, 135, 147); */
+    height: 105vh;
+    width: 88vw;
+    margin: 4px auto;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) , url(/imges/netural.jpg);
+    margin-left: 132px;
+
+}
+
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 70px;
+}
+
+.names {
+    font-size: 40px;
+}
+
+.abut {
+    font-size: 40px;
+}
+
+.moreabut {
+    font-size: 20px;
+    margin-top: 23px;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(80, 119, 2);
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+width: 25vh;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(80, 119, 2);
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+width: 25vh;
+}
+.btn:hover {
+    color: antiquewhite;
+    background-color: rgb(235, 64, 42);
+}
+
+
+.buttons button:hover {
+    color: antiquewhite;
+    background-color: blue;
+}
+
+.devpic img {
+    height: 365px;
+    padding-right: 80px;
+}
+
+.contactform {
+    padding: 0 75px;
+    padding-top: 100px;
+
+}
+
+.contactform h1 {
+    padding: 12px 0;
+    /* text-align:center; */
+}
+
+.container form div {
+    padding: 7px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26VW;
+    border-radius: 5px;
+    margin: 6px 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+
+    font-size: 11px;
+    color: midnightblue;
+    margin: 5px;
+    padding: 3px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+
+
+/* intro csss */
+
+.blogItem{
+    margin: 50px;
+}
+
+.intro h1{
+    margin: 12px;
+
+}
+.intro h2{
+    margin: 12px;
+
+}
+ .intro p{
+    margin: 12px;
+
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skill{
+    width: 270px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundered{
+    width: 265px;
+    background-color: rgb(21, 18, 218);
+}
+.fifty{
+    width: 125px;
+    background-color: orange;
+}
+
+.s2{
+    width: 200px;
+    background-color: rgb(14, 211, 233);
+}
+    .s3{
+    width: 190px;
+    background-color: rgb(13, 231, 100);
+}
+
+.s4{
+    width: 180px;
+    background-color: rgb(191, 17, 239);
+}
+
+.s5{
+    width: 175px;
+    background-color: rgb(17, 239, 32);
+}
+
+.s6{
+    width: 180px;
+    background-color: rgb(20, 225, 252);
+}
+
+.s7{
+    width: 175px;
+    background-color: rgb(26, 2, 34);
+}
+
+
+/* .sidebar */
+
+.sidebarGo{
+    transform: translate(-44px, 0px);
+    position: absolute;
+    
+}
+
+.hamburger{
+
+    position: absolute;
+    cursor: pointer;
+    top: 9px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+}
+.cross{
+
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+/* @media (max-width: 1600px){
+
+}
+.sidebar{
+            transform: translate(-44px, 0px);
+            position: absolute;
+} */
